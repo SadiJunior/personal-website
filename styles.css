@@ -39,6 +39,10 @@ img {
     object-fit: cover;
 }
 
+.img-border {
+    border: 6px solid var(--color-brand);
+}
+
 .full-height {
     min-height: 100vh;
     height: 100%;
@@ -81,11 +85,15 @@ img {
     color: var(--color-brand);
 }
 
+.navbar .nav-link.active {
+    color: var(--color-brand);
+}
+
 .auto-type {
     color: var(--color-brand);
 }
 
-.typed-cursor {
+.h1-highlighted {
     color: var(--color-brand);
 }
 
@@ -95,10 +103,6 @@ img {
         width: var(--sidebar-width);
         background-size: cover;
         background-position: center;
-    }
-
-    .navbar-brand img {
-        border: 8px solid var(--color-brand);
     }
 
     #content-wrapper {

@@ -20,7 +20,7 @@
         <nav class="navbar navbar-background navbar-expand-lg navbar-dark fixed-top">
             <div class="container flex-lg-column text-lg-center">
                 <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-                    <img class="d-none d-lg-block rounded-circle" src="images/profile.jpg" alt="Profile picture">
+                    <img class="d-none d-lg-block rounded-circle img-border" src="images/profile.jpg" alt="Profile picture">
                     <span class="h3 m-0 align-middle fw-bold flex-column d-block d-lg-none">Sadi Junior</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,6 +30,9 @@
                     <ul class="navbar-nav ms-auto flex-lg-column">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#experience">Experience</a>
@@ -47,7 +50,8 @@
         <!-- Navbar End -->
 
         <!-- Content Wrapper -->
-        <div id="content-wrapper">
+        <div id="content-wrapper" data-bs-spy="scroll" data-bs-target=".navbar">
+
             <!-- Home Page -->
             <section id="home" class="full-height px-lg-2">
                 <div class="container mx-lg-5">
@@ -67,6 +71,79 @@
                 </div>
             </section>
             <!-- Home Page End -->
+
+            <!-- About Page -->
+            <section id="about" class="full-height mx-3 mx-lg-5" style="overflow-x: hidden;">
+                <div class="container-fluid">
+                    <div class="row mb-5 mb-lg-5">
+                        <div class="col-lg-3 order-1 align-self-center" data-aos="fade-right">
+                            <img class="rounded-circle img-border" src="images/me.jpg" alt="Profile picture">
+                        </div>
+                        <div class="col-lg-9 order-2 align-self-center" data-aos="fade-right" data-aos-delay="200">
+                            <div class="mx-lg-5">
+                                <div class="row">
+                                    <h1 class="display-1 fw-bold h1-highlighted">Me</h1>
+                                </div>
+                                <div class="row">
+                                    <p>I am a 20 year boy who lives in Brazil.</p>
+                                    <p>I like to create things, especially if programming or art are involved.</p>
+                                    <p>I currently work as a <a href="https://dotnet.microsoft.com/en-us/" target="_blank">C# | .NET developer</a> at <a href="https://www.altus.com.br/en/" target="_blank">Altus</a>, working on a software used in engineering projects all over the globe.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5 mb-lg-5">
+                        <div class="col-lg-3 order-1 order-lg-2 align-self-center" data-aos="fade-left">
+                            <img class="rounded-circle img-border" src="images/graduation.jpg" alt="Graduation picture">
+                        </div>
+                        <div class="col-lg-9 order-2 order-lg-1 align-self-center" data-aos="fade-left" data-aos-delay="200">
+                            <div class="mx-lg-5 text-end">
+                                <div class="row mt-3 mt-lg-5">
+                                    <h1 class="display-1 fw-bold h1-highlighted">Education</h1>
+                                </div>
+                                <div class="row">
+                                    <p>After studying robotics in my youth, I decided I wanted to delve deeper into technology.
+                                    <p>Since then, I’ve graduated in Electronics at <a href="https://www.liberato.com.br/eletronica/" target="_blank">Fundação Liberato</a>, and I’m currently majoring in Computer Science at <a href="https://www.unisinos.br/graduacao/ciencia-da-computacao/hibrido" target="_blank">Unisinos</a>.</p>
+                                    <p>I also have a degree in English, reaching <a href="https://www.cambridgeenglish.org/exams-and-tests/advanced/" target="_blank">C1 Advanced English</a> level, certified by Cambridge University.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="row mb-5 mb-lg-5">
+                        <div class="col-lg-3 order-1 align-self-center" data-aos="fade-right">
+                            <img class="rounded-circle img-border" src="images/piano.jpg" alt="Piano picture">
+                        </div>
+                        <div class="col-lg-9 order-2 align-self-center" data-aos="fade-right" data-aos-delay="200">
+                            <div class="mx-lg-5 mt-lg-5">
+                                <div class="row">
+                                    <h1 class="display-1 fw-bold h1-highlighted">Art</h1>
+                                </div>
+                                <div class="row">
+                                    <p>I’m amazed by artistical creation, especially music and literature.</p>
+                                    <p>I play piano and guitar, and I'm passionate about instrumental music.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5 mb-lg-5">
+                        <div class="col-lg-3 order-1 order-lg-2 align-self-center" data-aos="fade-left">
+                            <img class="rounded-circle img-border" src="images/dog.jpg" alt="Dog picture">
+                        </div>
+                        <div class="col-lg-9 order-2 order-lg-1 align-self-center" data-aos="fade-left" data-aos-delay="200">
+                            <div class="mx-lg-5 text-end">
+                                <div class="row mt-3 mt-lg-5">
+                                    <h1 class="display-1 fw-bold h1-highlighted">Social</h1>
+                                </div>
+                                <div class="row">
+                                    <p>Whenever possible, I like spending time with family and friends (and with my dog, Sugar).</p>
+                                    <p>I'm constantly looking forward to making new connections, so please don't hesitate to <a href="#">reach out</a>!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Page End  -->
 
         </div>
         <!-- Content Wrapper End -->
