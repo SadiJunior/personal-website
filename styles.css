@@ -43,6 +43,30 @@ img {
     border: 6px solid var(--color-brand);
 }
 
+.bg-base {
+    background-color: var(--color-base);
+}
+
+.shadow-effect {
+    transition: all 0.4s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -6px 6px 0 0 var(--color-brand);
+}
+
+.custom-card .custom-card-image {
+    overflow: hidden;
+}
+
+.custom-card .custom-card-image img {
+    transition: all 0.4s ease;
+}
+
+.custom-card:hover .custom-card-image img {
+    transform: scale(1.05);
+}
+
 .full-height {
     min-height: 100vh;
     height: 100%;
@@ -93,7 +117,7 @@ img {
     color: var(--color-brand);
 }
 
-.h1-highlighted {
+.h-highlighted {
     color: var(--color-brand);
 }
 
