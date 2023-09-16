@@ -67,6 +67,23 @@ img {
     transform: scale(1.05);
 }
 
+.timeline {
+    padding: 0px 50px;
+    border-left: 2px solid var(--color-heading);
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 31px);
+    top: 50%;
+    background-color: var(--color-brand);
+    border: 2px solid var(--color-brand-secondary);
+}
+
 .full-height {
     min-height: 100vh;
     height: 100%;
