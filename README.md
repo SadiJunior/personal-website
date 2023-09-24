@@ -1,6 +1,6 @@
 # Personal Website
 
-### https://sadijunior.github.io/personal-website/
+### sadijunior.com
 
 ---
 
